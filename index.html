@@ -71,7 +71,7 @@
             </ul>
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="assets/img/Resume.pdf">Resume</a></li>
+          <li><a class="getstarted scrollto" href="assets/img/Website_Resume.pdf">Resume</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,8 +80,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
+  <section id="hero" class="d-flex align-items-center" style="background: linear-gradient(rgba(55,81,126,0.80), rgba(55,81,126,0.80)), url('assets/img/collage2.png'); background-size: cover; background-position: center;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
@@ -93,12 +92,52 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/home-screen.png" alt="" height="100%" width="100%" class="">
+          <img src="assets/img/home-screen.png" alt="" class="img-fluid">
         </div>
       </div>
     </div>
-
+  
+    <style>
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      #hero {
+        background: linear-gradient(rgba(55,81,126,0.80), rgba(55,81,126,0.80)), url('assets/img/collage2.png') repeat-x;
+        animation: slide 600s linear infinite;
+      }
+  
+      @keyframes slide {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: -23400px 0;
+        }
+      }
+    </style>
   </section><!-- End Hero -->
+  
+  
+    
+    <!--
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Hi I'm Skyler Rajasingham.</h1>
+          <h2>Welcome to my website!</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/home-screen.png" alt="" height="100%" width="100%" class="">
+        </div>
+      </div>
+    </div>-->
+
+ 
 
   <main id="main">
 
@@ -148,7 +187,7 @@
         <div class="row content">
           <div class="col-lg-6">
             <br>
-            <img src="assets/img/About-me.png" class="img-fluid" alt="">
+            <img src="assets/img/word_art.png" class="img-fluid" alt="">
             <div class="col-lg-3 col-md-6 footer-links">
              <!--- <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -329,10 +368,9 @@
       </div>
     </section> End Services Section --> 
 
-    <!-- ======= Cta Section ======= --> <!--change bakcground img + hover on icon == colour change?-->
-    <section id="cta" class="cta">
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta" style="background: linear-gradient(rgba(55,81,126,0.80), rgba(55,81,126,0.80)), url('assets/img/collage2.png'); background-size: cover; background-position: center;">>
       <div class="container" data-aos="zoom-in">
-
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Be sure to connect with me on social media!</h3>
@@ -368,9 +406,49 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-clubs">
+            <div class="portfolio-img"><img src="assets/img/EcocarEV.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>EcoCAR Electric Vehicle Challenge</h4>
+              <p>Club</p>
+              <a href="assets/img/EcocarEV.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="EcoCAR EV Challenge"><i class="bx bx-plus"></i></a>
+              <a href="EcoCAR_EV.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clubs">
+            <div class="portfolio-img"><img src="assets/img/MEDT.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MED-T</h4>
+              <p>Club</p>
+              <a href="assets/img/MEDT.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MED-T"><i class="bx bx-plus"></i></a>
+              <a href="MEDT.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
+            <div class="portfolio-img"><img src="assets/img/space_map.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Spatial Mapping Device</h4>
+              <p>Design Project</p>
+              <a href="assets/img/space_map.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Spatial Mapping Device"><i class="bx bx-plus"></i></a>
+              <a href="SpatialMapping.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
+            <div class="portfolio-img"><img src="assets/img/gait_closed.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Remote Gait Lab</h4>
+              <p>Design Project</p>
+              <a href="assets/img/gait_closed.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Remote Gait Lab"><i class="bx bx-plus"></i></a>
+              <a href="GaitLab.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clubs">
             <div class="portfolio-img"><img src="assets/img/EcoCAR.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>EcoCAR competition</h4>
+              <h4>EcoCAR Mobility Challenge</h4>
               <p>Club</p>
               <a href="assets/img/EcoCAR.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="EcoCAR competition"><i class="bx bx-plus"></i></a>
               <a href="EcoCAR.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -406,7 +484,7 @@
               <a href="DP3-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-img"><img src="assets/img/container-design.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
@@ -427,18 +505,7 @@
             </div>
           </div>
 
-          
 <!--
-          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
